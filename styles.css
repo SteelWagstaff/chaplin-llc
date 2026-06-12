@@ -1,9 +1,9 @@
 /* Chaplin Construction – Static Landing Page */
 
 :root {
-    --accent-color: #ffc700;
-    --dark-color: #1a1a1a;
-    --text-color: #333;
+    --accent-color: #222;
+    --dark-color: #222;
+    --text-color: #222;
     --light-bg: #f5f5f5;
 }
 
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: Baskerville, Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
     color: var(--text-color);
     line-height: 1.6;
     background-color: #fff;
@@ -39,9 +39,10 @@ body {
 
 .site-header .site-title {
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 300;
     color: var(--dark-color);
     margin: 0;
+    font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 .site-header .site-title a {
@@ -64,6 +65,7 @@ body {
     font-style: italic;
     color: var(--text-color);
     margin: 0;
+    font-family: Baskerville, Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
 }
 
 /* Main Content */
@@ -95,6 +97,8 @@ main {
     font-size: 2rem;
     margin-bottom: 30px;
     color: var(--dark-color);
+    font-family: Baskerville, Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    font-weight: normal;
 }
 
 .about-content {
@@ -108,28 +112,30 @@ main {
 
 .about-content h3 {
     font-size: 1.3rem;
-    font-weight: bold;
+    font-weight: normal;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
     color: var(--dark-color);
+    font-family: Baskerville, Garamond, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
 }
 
 /* Links */
 a {
-    color: var(--accent-color);
-    text-decoration: none;
+    color: var(--text-color);
+    text-decoration: underline;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #e6b300;
+    color: #666;
     text-decoration: underline;
 }
 
 /* Footer */
 .site-footer {
-    background: #f9f9f9;
-    border-top: 1px solid #eee;
+    background: #222;
+    border-top: none;
+    color: #fff;
 }
 
 .footer-content {
@@ -139,7 +145,7 @@ a:hover {
 .footer-title {
     font-size: 1.5rem;
     margin-bottom: 20px;
-    color: var(--dark-color);
+    color: #fff;
 }
 
 .footer-content address {
@@ -151,12 +157,20 @@ a:hover {
     margin: 0;
 }
 
+.footer-content a {
+    color: #fff;
+}
+
+.footer-content a:hover {
+    color: #ccc;
+}
+
 .site-footer-bottom {
-    background: #f0f0f0;
+    background: #222;
     padding: 20px 0;
     text-align: center;
     font-size: 0.9rem;
-    color: #666;
+    color: #999;
 }
 
 /* Responsive */
