@@ -2,6 +2,11 @@
 .DS_Store
 Thumbs.db
 
+# Git
+.git
+.gitignore
+.gitattributes
+
 # Editor
 .vscode/
 .idea/
@@ -13,5 +18,11 @@ node_modules/
 dist/
 build/
 
-# Netlify
+# Deployment
 .netlify/
+.wrangler/
+.cloudflare/
+
+# Development
+*.log
+.env
