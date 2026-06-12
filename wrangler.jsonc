@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "chaplin-llc",
+  "compatibility_date": "2026-06-12",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": ".",
+    "ignore": [
+      ".git/**",
+      ".gitignore",
+      ".gitattributes",
+      ".wrangler/**",
+      ".cloudflare/**",
+      "*.log",
+      ".env"
+    ]
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
